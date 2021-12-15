@@ -15,6 +15,6 @@
 ## Versions
 
 ## Auteurs
-* **Yoan Molia* _alias_ [@YoanDev](https://github.com/YoanDev)
+ **Yoan Molia* _alias_ [@YoanDev](https://github.com/YoanDev)
 
 
