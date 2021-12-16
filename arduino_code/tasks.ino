@@ -1,30 +1,11 @@
-class Potentiometer
-{
-  private:
-    uint8_t id;
-  public:
-    int pot_val();
-};
 
-int Potentiometer::pot_val()
-{
-  return (analogRead(POT)/32)+4; // between 4 and 36
-}
 
-class LDR_c
-{
-  private:
-    uint8_t id;
-    
-  public:
-    uint16_t ldr_val();
-};
-
-uint16_t LDR_c::ldr_val()
-{
-  return analogRead(LDR);
-}
-
+/**
+ * @brief Initializes instance of a variable delay
+ * 
+ * @param void * context passed from main function
+ * @return void
+ */
 static void vReadDisplayTemp( void *pvParameters )
 {
   int tempval;
@@ -42,6 +23,12 @@ static void vReadDisplayTemp( void *pvParameters )
   }
 }
 
+/**
+ * @brief Initializes instance of a variable delay
+ * 
+ * @param void * context passed from main function
+ * @return void
+ */
 static void vReadDisplayPot( void *pvParameters )
 {
   int setpval;
@@ -66,6 +53,12 @@ static void vReadDisplayPot( void *pvParameters )
   }
 }
 
+/**
+ * @brief Initializes instance of a variable delay
+ * 
+ * @param void * context passed from main function
+ * @return void
+ */
 static void vMangageHeater( void *pvParameters )
 {
   VAR lReceivedValue;
@@ -96,6 +89,12 @@ static void vMangageHeater( void *pvParameters )
   }
 }
 
+/**
+ * @brief Initializes instance of a variable delay
+ * 
+ * @param void * context passed from main function
+ * @return void
+ */
 static void vManageLum( void *pvParameters )
 {
   uint16_t luminosity;
@@ -111,6 +110,12 @@ static void vManageLum( void *pvParameters )
   }
 }
 
+/**
+ * @brief Initializes instance of a variable delay
+ * 
+ * @param void * context passed from main function
+ * @return void
+ */
 static void vLcdControl( void *pvParameters )
 {
   VAR lReceivedValue;

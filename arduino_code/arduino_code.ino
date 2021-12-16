@@ -6,11 +6,11 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #include "tasks.h"
+#include "PotentiometerAndLDR.h"
 
 #define DS18B20_PIN 10 
-#define POT A0 
+
 #define HEATER_LED 9
-#define LDR A1 
 #define BACKLIGHT 2
 
 // create I/O objects
@@ -24,6 +24,12 @@ typedef struct
   int val;
 }VAR;
 
+/**
+ * @brief Initializes instance of a variable delay
+ * 
+ * @param void 
+ * @return void
+ */
 void hardware_setup(void)
 { 
   lcd.init(); // initialize the lcd 
