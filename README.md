@@ -20,9 +20,9 @@ Le matériel nécessaire pour ce projet est :
 
 Dans mon cas, un shield a été réalisé par Philippe Camus Chargé de cours à la HEPL afin que nous puissions nous concentrer sur la programmation.
 Ce shield permet de connecter les capteurs et actionneurs cités ci-dessus.
-![Schematic pcb](https://user-images.githubusercontent.com/63938150/149845984-21143a78-5e74-458d-917f-edc6e97d187e.png)
 
-
+<p align="center">
+<img src="https://github.com/YoanDev/Thermostat/blob/dev_001/Schematic%20pcb.png" width = "500" heigth = "500">
 
 ### Software
 #### Arduino
@@ -46,6 +46,6 @@ https://thingspeak.com/channels/1596716
 
 
 ## Auteurs
- **Yoan Molia* _alias_ [@YoanDev](https://github.com/YoanDev)
+[@YoanDev](https://github.com/YoanDev)
 
 
