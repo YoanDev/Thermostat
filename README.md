@@ -2,7 +2,7 @@
 
  
 
-## Objectectif
+## Objectif
 
 Ce projet a pour objectif la réalisation d'un thermostat connecté. Il a eu lieu dans un cours pour apprendre à programmer avec FreeRTOS.
 Une connection à un serveur ThingSpeak et une application mobile ont été ajouté pour améliorer le projet.
